@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 5 - Flower Shop</title>
+    <link rel="stylesheet" href="./global.css">
+    <style>
+        #remove-flower {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./restaurant.html">Restaurant Menu</a></li>
+        <li><a href="./bookstore.html">Online Bookstore</a></li>
+        <li><a href="./flowershop.html">Flower Shop</a></li>
+        <li><a href="./amusementpark.html">Amusement Park</a></li>
+        <li><a href="./animalshelter.html">Animal Shelter</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Flower Shop</h1>
+    <p>
+        You have been hired by a local flower shop to develop an online ordering system for customers.
+        The flower shop only has certain flowers available through this service: Rose, Tulip, Daisy, Lily.
+        You must show all of the available flowers and give customers a way to add them to the cart.
+        Show the customers their cart and allow them to remove the last flower they added.
+    </p>
+
+    <h2>Available Flowers</h2>
+    <ul id="flowers"></ul>
+
+    <h2>Cart</h2>
+    <button id="remove-flower">-</button>
+    <ul id="cart"></ul>
+    <p id="no-flowers">
+        No flowers in cart
+    </p>
+</main>
+
+<script src="./flowershop.js"></script>
+</body>
+</html>
