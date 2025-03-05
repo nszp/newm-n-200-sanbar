@@ -119,7 +119,11 @@ main {
         li {
             margin-bottom: 10px;
 
-            span {
+            button + span {
+                margin-left: 5px;
+            }
+            /* Select button that comes at the end of a li after text content */
+            button:last-child {
                 margin-left: 5px;
             }
         }
