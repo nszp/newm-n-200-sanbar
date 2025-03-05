@@ -59,6 +59,6 @@ for (let i = 0; i < ticketTypes.length; i++) {
   ticketsRef.appendChild(li);
 }
 
-removeticketBtn.removeEventbutton('click', removeticketfromcart);
+removeticketBtn.addEventListener('click', removeticketfromcart);
 
 showcart();
