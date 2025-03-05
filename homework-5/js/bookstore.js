@@ -45,12 +45,10 @@ for (let i = 0; i < books.length; i++) {
   const newBtn = document.createElement("button");
   newBtn.innerText = "+";
   newBtn.dataset.name = books[i];
-  newBtn.onclick = addItemToCart;
+  newBtn.addEventListener("click", addItemToCart);
   newLi.appendChild(newBtn);
 
   booksUlRef.appendChild(newLi);
   console.log(books[i]);
-  removeBookRef.onclick = removeItemFromCart;
+  removeBookRef.addEventListener("click", removeItemFromCart);
 }
-
-// booksUlRef.onclick = noBookPText;
