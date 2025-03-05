@@ -23,3 +23,7 @@ List any websites that you might reference to influence your styling choices. Li
 ### Members & Responsibilities - Scrum Master
 
 List all members, their roles, and their scenario titles
+Carlos Salguera
+Nea Szpunar
+Nnaemeka Onochie
+Alonso Palmero
