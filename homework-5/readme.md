@@ -4,6 +4,7 @@
 
 Our project is a collection of CRUD examples in different problem domains: amusement park tickets,
 animal shelter adoptions, flower shop inventory, an online bookstore, and a restaurant menu.
+Each page has a list of items that can be added to and removed from the user's cart.
 The set list of topics was given to us in the assignment.
 
 ### Live Link
