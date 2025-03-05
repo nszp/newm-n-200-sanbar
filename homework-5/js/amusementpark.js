@@ -2,7 +2,6 @@ const ticketsRef = document.querySelector('#tickets');
 const cartRef = document.querySelector('#cart');
 const noticketRef = document.querySelector('#no-ticket');
 const removeticketBtn = document.querySelector('#remove-ticket');
-
 const ticketTypes = [
     'Senior', 
     'Adult', 
