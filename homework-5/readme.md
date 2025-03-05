@@ -6,7 +6,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Live Link
 
-[https://nszp.github.io/newm-n-200-sanbar/homework-5]
+[HomePage](https://nszp.github.io/newm-n-200-sanbar/homework-5)
 
 ### Key Takeaways - Analyst
 
