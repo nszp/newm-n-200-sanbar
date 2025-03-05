@@ -11,7 +11,7 @@ removeBtnRef.style.padding = "4px";
 function showCart() {
   cartRef.innerHTML = "";
   for (let i = 0; i < cart.length; i++) {
-    cartRef.innerHTML += "<li>&#8226; " + cart[i] + "</li>";
+    cartRef.innerHTML += "<li>" + cart[i] + "</li>";
   }
 }
 
