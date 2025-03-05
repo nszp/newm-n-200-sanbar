@@ -14,7 +14,13 @@ The purpose of this project is to help familiarize ourselves with manipulating t
 
 ### Core Webpages - Architect
 
-List core webpages and briefly describe the page of them
+We used multiple webpages listed as follows;
+* index.html - This was the main page for all of our navigation links and scripts
+* flowershop.html - This page was used to list diferent flowers for sale.
+* OnlineBookStore.html - This page listed books for sale
+* Amusementpark.html - This was an online ticket system allowing people to get different tickets
+* Restaurant Menu - This page was to display menu items
+* Animal Shelter - This page listed animals for adoption.
 
 ### Design Choices - Designer
 
