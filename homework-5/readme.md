@@ -33,7 +33,11 @@ The primary color used in the website is a dark grey (`#333`). This color was us
 ### Members & Responsibilities - Scrum Master
 
 **Karanjot Kailay** - _Scrum Master_ - Responsiblity: To create the Animal Shelter Page
+
 **Carlos Salguera** - _Analyst_ - Responsiblity: To create the Restaurant Menu Page
+
 **Nea Szpunar** - _President_ - Responsiblity: To create the Flower Shop Page
+
 **Alonso Palmero** - _Designer_ - Responsiblity: To create the Online Bookstore Page
+
 **Nnaemeka Onochie** - _Architect_ - Responsiblity: To create the Amusement Park Page
