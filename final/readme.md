@@ -10,7 +10,7 @@ Our project is a website that documents Greek Mythology, which is one of the lar
 
 ### Key Takeaways
 
-What have you learned or practiced during this semester that aided in the completion of your project.
+Some of the skills that are essential for this project include DOM manipulation, event handling, API calls, and property access (dot notation). These skills allow us to work with a database and render specific data associated with our theme of choice, in our case Greek mythology. Finally, event handling allows for users of our application to interact with the various elements.
 
 ### Core Webpages
 
