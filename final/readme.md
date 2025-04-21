@@ -1,8 +1,8 @@
-## Group Final
+## Subaru Sanbar Greek Mythology Final Project
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic. Describe how topic relates to category.
+Our project is a website that documents Greek Mythology, which is one of the largest areas of historical mythology. We chose this topic because it is very broad and allowed us to easily create many pages.
 
 ### Live Link
 
