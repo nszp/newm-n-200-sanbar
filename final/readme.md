@@ -18,14 +18,29 @@ List core webpages and briefly describe the page of them
 
 ### Design Choices & Local Storage Design
 
-List any websites that you might reference to influence your styling choices. List any colors used and what they were used for.
+Since our website is centered around Greek mythology, we took heavy inspiration from the design style from that time period. A website that gave us inspiration would be [GreekMythology.com](https://www.greekmythology.com/). This website features stylistic choices that make the website feel like it would fit in the Greek Mythology time period.
 
-Describe your local storage data structure with rationale.
+The color palette for our website consists of brown colors with a light blue accent color, which follow the color palette for Greek Mythology
+
+**Colors:**
+
+- `#77B5BF` - _Light blue accent color_
+
+- `#534132` - _Dark Brown for text color_
+
+- `#C0BAA8` - _Tan color with paper texture for the background_
+
+We also plan to use the fonts _**Disalina Regular**_ and _**LTC Italian Old Style Pro Regular**_, as those fonts evoke the Greek Mythology style.
+
+**Local Storage**
+
+The local storage data structure will feature user login data, with data such as
+`{username: “ZeusTheLeader”, password: “lightning123” }` Users will be able to create their accounts by typing in a username and password, which will be uploaded to local storage. This will allow for multiple users to create accounts. We also plan to allow the user to create new entries on the list pages, so the data structure design for this will need to mirror the API’s structure.
 
 ### Members & Responsibilities
 
 - **Nea Szpunar** _President_ - Will do the Home page, a list of Stories and a details page for each item of Stories, and also create the API.
-- **Nnaemeka Onochie** - _Architect_  - Will do a list of Heros and a details page for each item of Heros.
+- **Nnaemeka Onochie** - _Architect_ - Will do a list of Heros and a details page for each item of Heros.
 - **Karanjot Kailay** - _Scrum Master_ - Will do a list of Creatures and a details page for each item of Creatures.
-- **Carlos Salguera** - _Analyst_  - Will do a list of Olympians and a details page for each item of Olympians.
-- **Alonso Palmero** - _Designer_  - Will do a list Artifacts/Relics and a details page for each item of Artifcats/Relics.
+- **Carlos Salguera** - _Analyst_ - Will do a list of Olympians and a details page for each item of Olympians.
+- **Alonso Palmero** - _Designer_ - Will do a list Artifacts/Relics and a details page for each item of Artifcats/Relics.
