@@ -24,4 +24,8 @@ Describe your local storage data structure with rationale.
 
 ### Members & Responsibilities
 
-List all members, their roles, and their planned contributions to the project
+- **Nea Szpunar** _President_ - Will do the Home page and also create the API.
+- **Nnaemeka Onochie** - _Architect_  - Will do a list of Heros and a details page for each item of Heros
+- **Karanjot Kailay** - _Scrum Master_ - Will do a list of Creatures and a details page for each item of Creatures
+- **Carlos Salguera** - _Analyst_  - Will do a list of Olympians and a details page for each item of Olympians.
+- **Alonso Palmero** - _Designer_  - Will do a list Artifacts/Relics and a details page for each item of Artifcats/Relics
