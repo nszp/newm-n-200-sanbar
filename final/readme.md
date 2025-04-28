@@ -43,4 +43,4 @@ The local storage data structure will feature user login data, with data such as
 - **Nnaemeka Onochie** - _Architect_ - Will do a list of Heros and a details page for each item of Heros.
 - **Karanjot Kailay** - _Scrum Master_ - Will do a list of Creatures and a details page for each item of Creatures.
 - **Carlos Salguera** - _Analyst_ - Will do a list of Olympians and a details page for each item of Olympians.
-- **Alonso Palmero** - _Designer_ - Will do a list Artifacts/Relics and a details page for each item of Artifcats/Relics.
+- **Alonso Palmero** - _Designer_ - Will do a list Artifacts/Relics and a details page for each item of Artifacts/Relics.
