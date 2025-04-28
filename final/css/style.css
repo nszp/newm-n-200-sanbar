@@ -16,11 +16,12 @@ nav {
 .nav-link {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 24px;
   margin: 0 16px;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.card-link:hover {
   text-decoration: underline;
   color: blue;
 }
@@ -33,7 +34,26 @@ nav {
   max-width: 800px;
 }
 
-#card {
+.card {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 0 12px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+/* apply style to images within the details page */
+#details-img {
+  width: 500px;
+}
+
+p {
+  max-width: 500px;
+  font-size: 20px;
 }
