@@ -2,11 +2,10 @@ import { getResource } from './services.js';
 
 const id = new URLSearchParams(window.location.search).get('id')
 
-document.title = `Olympian - ${id}`
-
 async function renderOlympian(id) {
   const olympian = await getResource('olympians', id)
-
+  
+  document.title = `Olympian - ${olympian.greekName}`
   const name = document.createElement('h1')
   const img = document.createElement('img')
   const gName = document.createElement('h2')
