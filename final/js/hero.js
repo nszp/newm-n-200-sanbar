@@ -9,7 +9,6 @@ async function renderHero(id) {
     const title = document.createElement('h2');
     const img = document.createElement('img');
     const description = document.createElement('p');
-    const link = document.createElement('a');
     title.textContent = hero.name;
     img.src = hero.image;
     img.alt = hero.name;
