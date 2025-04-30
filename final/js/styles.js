@@ -26,5 +26,5 @@ const pages = [['home', 'index'], ['olympians', 'olympian'], ['heroes', 'hero'],
 let current = location.pathname.split('/').pop().split('.')[0]
 for (const [name, link] of pages) {
     const isCurrent = current === name || current === link || (name === 'home' && current === '')
-    console.log(`isCurrent: ${isCurrent} for ${name} (${current})`)
+    console.log(`isCurrent: ${ isCurrent } for ${ name } (${ current })`)
 }

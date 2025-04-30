@@ -9,15 +9,15 @@
 
 <script>
     // This is the details page for each story. A story is specified with a query parameter in the URL.
-    const id = new URLSearchParams(window.location.search).get('id');
+    const id = new URLSearchParams(window.location.search).get('id')
     console.log(id)
 
     // if id is null, redirect to the stories page
     if (id == null) {
-        window.location.href = './stories.html';
+        window.location.href = './stories.html'
     }
 
-    document.title = `Story - ${id}`; // or use the full name from the API
+    document.title = `Story - ${ id }` // or use the full name from the API
     // Fetch the story details from the API and populate the page
 </script>
 </body>

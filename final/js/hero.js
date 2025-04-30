@@ -1,24 +1,24 @@
-import { getResource } from './services.js';
+import { getResource } from './services.js'
 
 const id = new URLSearchParams(window.location.search).get('id')
 
 async function renderHero(id) {
-    const hero = await getResource('heroes', id);
+    const hero = await getResource('heroes', id)
 
-    document.title = `Hero - ${hero.name}`
-    const name = document.createElement('h1');
-    const img = document.createElement('img');
-    const description = document.createElement('p');
+    document.title = `Hero - ${ hero.name }`
+    const name = document.createElement('h1')
+    const img = document.createElement('img')
+    const description = document.createElement('p')
     const container = document.createElement('div')
-    name.textContent = hero.name;
-    img.src = hero.image;
-    img.alt = hero.name;
+    name.textContent = hero.name
+    img.src = hero.image
+    img.alt = hero.name
     img.id = 'details-img'
-    description.textContent = hero.description || hero.bio || '';
-    document.body.appendChild(name);
-    container.appendChild(img);
-    container.appendChild(description);
+    description.textContent = hero.description || hero.bio || ''
+    document.body.appendChild(name)
+    container.appendChild(img)
+    container.appendChild(description)
     document.body.appendChild(container)
 }
 
-renderHero(id);
+renderHero(id)
