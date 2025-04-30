@@ -51,6 +51,7 @@ nav {
 /* apply style to images within the details page */
 #details-img {
   width: 500px;
+  height: 500px;
 }
 
 p {
