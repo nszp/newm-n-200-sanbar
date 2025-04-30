@@ -24,8 +24,9 @@ async function renderOlympian(id) {
     // header.appendChild(gName)
     header.appendChild(rName)
     header.appendChild(description)
+    header.appendChild(img)
+
     document.body.appendChild(header)
-    document.body.appendChild(img)
 
 
 }

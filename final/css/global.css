@@ -162,8 +162,9 @@ header {
 }
 
 header + img {
-    float: right;
-    margin-right: 12rem;
+    /*float: right;*/
+    /*margin-left: 14rem;*/
+    width: 300px;
 }
 
 main {
