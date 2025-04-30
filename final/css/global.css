@@ -146,7 +146,7 @@ nav {
 header {
     padding: 0 14rem;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 
     h1 {
         margin-bottom: 8px;
@@ -159,10 +159,18 @@ header {
     img {
         width: 300px;
     }
+
+    &:has( + main)::after {
+        content: 'Add Your Own';
+        font-size: 14px;
+        cursor: pointer;
+    }
 }
+
 
 main {
     padding: 0 12rem;
+    margin-bottom: 4rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 2rem;
