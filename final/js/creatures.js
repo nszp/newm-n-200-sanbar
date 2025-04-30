@@ -1,5 +1,7 @@
 import { getResources } from './services.js'
 
+const container = document.querySelector('main')
+
 async function renderCreatures() {
     const creatures = await getResources('creatures')
 

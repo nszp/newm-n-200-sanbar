@@ -1,6 +1,6 @@
 import { getResources } from './services.js'
 
-const containerRef = document.querySelector('#container')
+const containerRef = document.querySelector('main')
 
 async function renderHeroes() {
     const heroes = await getResources('heroes')
