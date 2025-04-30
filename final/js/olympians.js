@@ -19,7 +19,7 @@ async function renderOlympians() {
     card.appendChild(name)
     card.appendChild(img)
     card.appendChild(link)
-    containerRef.append(card)
+    containerRef.appendChild(card)
   });
 }
 
