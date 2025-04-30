@@ -17,7 +17,7 @@ async function renderHeroes() {
         img.alt = hero.name
         card.className = 'card'
         card.addEventListener('click', () => redirect(newUrl))
-        link.href = `./hero.html?id=${ hero.id }`
+        link.href = newUrl
         link.className = 'card-link'
         link.textContent = 'Learn More'
         card.appendChild(name)
