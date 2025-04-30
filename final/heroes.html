@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <source>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script type="module" src="./js/heroes.js"></script>
     <title>Heroes</title>
-</head>
+  </head>
   <body>
-    <nav>
-      <a href="./index.html" class="nav-link">Home</a>
-      <a href="./olympians.html" class="nav-link">Olympians</a>
-      <a href="./heroes.html" class="nav-link">Heroes</a>
-      <a href="./stories.html" class="nav-link">Stories</a>
-      <a href="./relics.html" class="nav-link">Relics</a>
-    </nav>
+    <header class="navbar">
+      <nav>
+        <a href="./index.html" class="nav-link">Home</a>
+        <a href="./olympians.html" class="nav-link">Olympians</a>
+        <a href="./heroes.html" class="nav-link">Heroes</a>
+        <a href="./stories.html" class="nav-link">Stories</a>
+        <a href="./relics.html" class="nav-link">Relics</a>
+      </nav>
+    </header>
+    <main class="container">
+      <h1>Heroes</h1>
+      <p>Explore the legendary heroes of Greek mythology.</p>
+      <section id="heroes-list" class="grid"></section>
+      <section id="hero-details" class="details"></section>
+    </main>
   </body>
 </html>
