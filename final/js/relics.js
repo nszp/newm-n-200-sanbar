@@ -13,7 +13,7 @@ async function renderRelics() {
     name.textContent = relics.name;
     img.src = relics.image;
     card.className = "card";
-    link.href = `relic.html/?id=${relics.id}`;
+    link.href = `./relic.html?id=${relics.id}`;
     link.className = "card-link";
     link.textContent = "Learn More";
     img.className = "relics-img";
@@ -22,7 +22,7 @@ async function renderRelics() {
     card.appendChild(link);
     // document.body.appendChild(name);
     // document.body.appendChild(img);
-    containerRef.append(card);
+    containerRef.appendChild(card);
   });
 }
 
