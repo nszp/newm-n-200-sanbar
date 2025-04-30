@@ -7,16 +7,16 @@ async function renderRelic(id) {
     const name = document.createElement('h1')
     const img = document.createElement('img')
     const description = document.createElement('p')
-    const container = document.createElement('div')
+    const header = document.createElement('header')
     document.title = `Relic - ${ relic.name }`
     name.textContent = relic.name
     img.src = relic.image
     img.id = 'details-img'
     description.textContent = relic.description
-    document.body.appendChild(name)
-    container.appendChild(img)
-    container.appendChild(description)
-    document.body.appendChild(container)
+    header.appendChild(name)
+    header.appendChild(description)
+    header.appendChild(img)
+    document.body.appendChild(header)
 }
 
 renderRelic(id)
