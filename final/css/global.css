@@ -156,15 +156,9 @@ header {
         font-size: 18px;
     }
 
-    /*h2:first-of-type {*/
-    /*    margin-bottom: 0;*/
-    /*}*/
-}
-
-header + img {
-    /*float: right;*/
-    /*margin-left: 14rem;*/
-    width: 300px;
+    img {
+        width: 300px;
+    }
 }
 
 main {
@@ -174,38 +168,51 @@ main {
     gap: 2rem;
     justify-items: center;
     align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 12px;
+        border: 2px solid var(--main-accent-color);
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(0.98);
+            background-color: var(--main-accent-color-dark);
+            color: white;
+
+            a {
+                color: white !important;
+            }
+        }
+
+        h2 {
+            margin-bottom: 12px;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        img {
+            margin-bottom: 4px;
+            border-radius: 4px;
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        a, a:visited {
+            text-decoration: underline;
+            color: var(--main-accent-color);
+            font-size: 18px;
+            margin: 12px 0;
+            font-family: 'Disalina', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+    }
 }
 
-main div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 12px;
-    border: 2px solid var(--main-accent-color);
-    padding: 8px 12px;
-    border-radius: 4px;
-}
-
-main div h2 {
-    margin-bottom: 12px;
-    padding: 0;
-    font-size: 20px;
-}
-
-main div img {
-    margin-bottom: 4px;
-    border-radius: 4px;
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-}
-
-main div a, main div a:visited {
-    text-decoration: underline;
-    color: var(--main-accent-color);
-    font-size: 18px;
-    margin: 12px 0;
-    font-family: 'Disalina', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}

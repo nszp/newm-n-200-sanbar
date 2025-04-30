@@ -8,6 +8,7 @@ async function renderCreatures() {
 
   creatures.forEach((creature) => {
     const newUrl = `./creature.html?id=${creature.id}`
+    if (creature.name === 'Chimera') return
     const card = document.createElement("div");
     card.classList.add("card");
     card.addEventListener('click', () => redirect(newUrl))
