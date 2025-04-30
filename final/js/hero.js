@@ -5,7 +5,7 @@ const heroId       = params.get('id');
 const containerRef = document.querySelector('#hero-details');
 
 async function renderHero() {
-    const hero = await getResources('heroes/${heroId}');
+    const hero = await getResources(`hero/${heroId}`);
     const title = document.createElement('h2');
     const img = document.createElement('img');
     const description = document.createElement('p');
@@ -16,7 +16,7 @@ async function renderHero() {
     description.textContent = hero.description || hero.bio || '';
     containerRef.appendChild(title);
     containerRef.appendChild(img);
-    containerRef.appendChild(desc);
+    containerRef.appendChild(description);
 }
 
 renderHero();
