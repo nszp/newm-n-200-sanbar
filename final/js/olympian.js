@@ -18,7 +18,6 @@ async function renderOlympian(id) {
   description.textContent = olympian.description
   gName.textContent = `Greek Name: ${olympian.greekName}`
   rName.textContent = `Roman Name: ${olympian.romanName}`
-  description.id = 'details-description'
   document.body.appendChild(name)
   container.appendChild(img)
   container.appendChild(gName)

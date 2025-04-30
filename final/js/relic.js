@@ -13,7 +13,6 @@ async function renderRelic(id) {
   img.src = relic.image;
   img.id = "details-img";
   description.textContent = relic.description;
-  description.id = "details-description";
   document.body.appendChild(name);
   container.appendChild(img);
   container.appendChild(description);
