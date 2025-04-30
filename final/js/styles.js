@@ -27,7 +27,8 @@ const pages = [
     ['heroes', 'hero'],
     // ['stories', 'story'],
     ['relics', 'relic'],
-    ['creatures', 'creature']
+    ['creatures', 'creature'],
+    ['account', 'account']
 ]
 
 let current = location.pathname.split('/').pop().split('.')[0]
