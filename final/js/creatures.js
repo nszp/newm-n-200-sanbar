@@ -11,7 +11,7 @@ async function renderCreatures() {
     const img = document.createElement("img");
     img.src = creature.image;
     const link = document.createElement("a");
-    link.href = `/creature.html?id=${creature.id}`;
+    link.href = `creature.html?id=${creature.id}`;
     link.classList.add("card-link");
     link.textContent = "Learn More";
     card.appendChild(name);
