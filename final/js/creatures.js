@@ -7,7 +7,7 @@ async function renderCreatures() {
     const card = document.createElement("div");
     card.classList.add("card");
     const name = document.createElement("h2");
-    name.textContent = creature.greekName;
+    name.textContent = creature.name;
     const img = document.createElement("img");
     img.src = creature.image;
     const link = document.createElement("a");
