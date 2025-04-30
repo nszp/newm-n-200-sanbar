@@ -16,7 +16,7 @@ async function renderOlympians() {
         img.src = olympian.image
         card.className = 'card'
         card.addEventListener('click', () => redirect(newUrl))
-        link.href = `./olympian.html?id=${ olympian.id }`
+        link.href = newUrl
         link.className = 'card-link'
         link.textContent = 'Learn More'
         card.appendChild(name)
