@@ -14,7 +14,7 @@ async function renderHeroes() {
     img.src = hero.image;
     img.alt = hero.name;
     card.className = 'card';
-    link.href = `/hero.html?id=${hero.id}`;
+    link.href = `./hero.html?id=${hero.id}`;
     link.className = 'card-link';
     link.textContent = 'Learn More';
     card.appendChild(name);

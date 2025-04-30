@@ -13,7 +13,7 @@ async function renderOlympians() {
     name.textContent = olympian.greekName
     img.src = olympian.image
     card.className = 'card'
-    link.href = `/olympian.html?id=${olympian.id}`
+    link.href = `./olympian.html?id=${olympian.id}`
     link.className = 'card-link'
     link.textContent = 'Learn More'
     card.appendChild(name)
