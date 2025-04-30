@@ -7,7 +7,7 @@ chose this topic because it is very broad and allowed us to easily create many p
 
 ### Live Link
 
-[Home Page](https://nszp.github.io/newmn-n-200-sanbar/final)
+[Home Page](https://nszp.github.io/newm-n-200-sanbar/final)
 
 ### Key Takeaways
 

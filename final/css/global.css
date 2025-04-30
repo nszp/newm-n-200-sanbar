@@ -151,6 +151,19 @@ header {
     h1 {
         margin-bottom: 8px;
     }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    /*h2:first-of-type {*/
+    /*    margin-bottom: 0;*/
+    /*}*/
+}
+
+header + img {
+    float: right;
+    margin-right: 12rem;
 }
 
 main {

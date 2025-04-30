@@ -8,22 +8,26 @@ async function renderOlympian(id) {
     document.title = `Olympian - ${ olympian.greekName }`
     const name = document.createElement('h1')
     const img = document.createElement('img')
-    const gName = document.createElement('h2')
+    // const gName = document.createElement('h2')
     const rName = document.createElement('h2')
     const description = document.createElement('p')
-    const container = document.createElement('div')
+    const header = document.createElement('header')
+
     name.textContent = olympian.greekName
     img.src = olympian.image
     img.id = 'details-img'
     description.textContent = olympian.description
-    gName.textContent = `Greek Name: ${ olympian.greekName }`
+    // gName.textContent = `Greek Name: ${ olympian.greekName }`
     rName.textContent = `Roman Name: ${ olympian.romanName }`
-    document.body.appendChild(name)
-    container.appendChild(img)
-    container.appendChild(gName)
-    container.appendChild(rName)
-    container.appendChild(description)
-    document.body.appendChild(container)
+
+    header.appendChild(name)
+    // header.appendChild(gName)
+    header.appendChild(rName)
+    header.appendChild(description)
+    document.body.appendChild(header)
+    document.body.appendChild(img)
+
+
 }
 
 renderOlympian(id)
