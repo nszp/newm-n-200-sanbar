@@ -20,8 +20,6 @@ async function renderRelics() {
     card.appendChild(name);
     card.appendChild(img);
     card.appendChild(link);
-    // document.body.appendChild(name);
-    // document.body.appendChild(img);
     containerRef.appendChild(card);
   });
 }

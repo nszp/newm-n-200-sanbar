@@ -1,7 +1,6 @@
 import { getResource } from "./services.js";
 
 const id = new URLSearchParams(window.location.search).get("id");
-console.log(id);
 
 async function renderRelic(id) {
   const relic = await getResource("relics", id);
