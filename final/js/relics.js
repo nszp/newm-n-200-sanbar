@@ -16,7 +16,7 @@ async function renderRelics() {
         img.src = relics.image
         card.className = 'card'
         card.addEventListener('click', () => redirect(newUrl))
-        link.href = `./relic.html?id=${ relics.id }`
+        link.href = newUrl
         link.className = 'card-link'
         link.textContent = 'Learn More'
         img.className = 'relics-img'
