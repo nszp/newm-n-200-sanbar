@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Story - </title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Story</title>
+    <script type="module" src="./js/styles.js"></script>
+    <link rel="stylesheet" href="css/global.css"/>
+    <script type="module" src="./js/story.js"></script>
 </head>
 <body>
-
-
-<script>
-    // This is the details page for each story. A story is specified with a query parameter in the URL.
-    const id = new URLSearchParams(window.location.search).get('id')
-    console.log(id)
-
-    // if id is null, redirect to the stories page
-    if (id == null) {
-        window.location.href = './stories.html'
-    }
-
-    document.title = `Story - ${ id }` // or use the full name from the API
-    // Fetch the story details from the API and populate the page
-</script>
 </body>
 </html>

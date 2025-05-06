@@ -25,9 +25,9 @@ const pages = [
     ['home', 'index'],
     ['olympians', 'olympian'],
     ['heroes', 'hero'],
-    // ['stories', 'story'],
     ['relics', 'relic'],
     ['creatures', 'creature'],
+    ['stories', 'story'],
     ['account', 'account']
 ]
 
