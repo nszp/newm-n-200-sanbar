@@ -297,7 +297,6 @@ main {
             align-items: center;
             gap: 16px;
             width: 100%;
-            /*margin-top: 10px;*/
 
             button {
                 text-decoration: underline;
@@ -314,7 +313,6 @@ main {
                 &:hover {
                     color: white !important;
                     background-color: var(--main-accent-color-dark);
-                    /*transform: scale(0.98);*/
                 }
             }
         }
