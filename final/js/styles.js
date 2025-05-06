@@ -34,7 +34,6 @@ const pages = [
 let current = location.pathname.split('/').pop().split('.')[0]
 for (const [name, link] of pages) {
     const isCurrent = current === name || current === link || (name === 'home' && current === '')
-    // console.log(`isCurrent: ${ isCurrent } for ${ name } (${ current })`)
 
     const a = document.createElement('a')
     a.href = name === 'home' ? './' : `./${ name }.html`

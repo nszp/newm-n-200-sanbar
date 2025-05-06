@@ -78,7 +78,7 @@ function showModal() {
 
             document.getElementById('error-message').style.display = 'block' // Show error message if login fails
             // Hide error message if login succeeds
-            document.getElementById('error-message').style.display = 'none' // Hide error message if login succeeds
+            // document.getElementById('error-message').style.display = 'none' // Hide error message if login succeeds
             // Can also change error text
 
             // Close modal
