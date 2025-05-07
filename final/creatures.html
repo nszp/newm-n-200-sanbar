@@ -9,11 +9,26 @@
     <title>Creatures</title>
 </head>
 <body>
-<header>
+  <header>
     <h1>Creatures</h1>
-    <p>Explore all the creatures in Greek Mythology.</p>
-</header>
+    <p>Explore all the creatures throughout Greek Mythology.</p>
+  </header>
 
-<main></main>
+  <main></main>
+
+  <form id="addCreatureForm">
+    <h2>Add a Creature</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="image">Image URL:</label>
+    <input type="url" id="image" name="image" required />
+
+    <button type="submit">Add</button>
+  </form>
 </body>
 </html>
+
+
+
