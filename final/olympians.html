@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./css/global.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global.css" />
     <script type="module" src="./js/global.js"></script>
     <script type="module" src="./js/olympians.js"></script>
     <title>Olympians</title>
-</head>
-<body>
-<header>
-    <h1>Olympians</h1>
-    <p>Explore the 12 gods and goddesses from Mount Olympus.</p>
-</header>
+  </head>
+  <body>
+    <header>
+      <h1>Olympians</h1>
+      <p>Explore the 12 gods and goddesses from Mount Olympus.</p>
+    </header>
 
-<main></main>
-
-</body>
+    <main></main>
+    <form id="addOlympianForm">
+      <h2>Add an Olympian</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="image">Image Url:</label>
+      <input type="url" id="image" name="image" required />
+      <button type="submit">Add</button>
+    </form>
+  </body>
 </html>
