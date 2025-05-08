@@ -5,6 +5,10 @@ document.querySelectorAll('a[href$="account.html"]').forEach((el) => {
   });
 });
 
+if (!localStorage.getItem('activeUser')) {
+    document.querySelectorAll('form').forEach(form => form.style.display = 'none');
+}
+
 function showModal() {
   const dialog = document.createElement("dialog");
   dialog.id = "account-modal";
@@ -17,7 +21,16 @@ function showModal() {
   title.classList.add("modal-header");
   dialog.appendChild(title);
 
-  if (activeUser.username) {
+  const cancel = document.createElement("button");
+  cancel.textContent = "Cancel";
+  cancel.classList.add("modal-button");
+  cancel.addEventListener("click", () => {
+    dialog.close();
+    // Remove modal from DOM
+    dialog.remove();
+  });
+
+  if (activeUser?.username) {
     const welcome = document.createElement("p");
     welcome.textContent =
       "Welcome! You are logged in as " + activeUser.username;
@@ -29,6 +42,8 @@ function showModal() {
     logout.addEventListener("click", () => {
       // Log out of account here
       localStorage.removeItem("activeUser");
+      document.querySelectorAll('form').forEach(form => form.style.display = 'none');
+
 
       // Close modal
       dialog.close();
@@ -36,7 +51,11 @@ function showModal() {
       dialog.remove();
     });
 
-    dialog.append(welcome, logout);
+    const buttons = document.createElement("div");
+    buttons.classList.add("modal-buttons");
+    buttons.append(cancel, logout);
+
+    dialog.append(welcome, buttons);
   } else {
     const usernameInput = document.createElement("input");
     usernameInput.type = "text";
@@ -58,14 +77,6 @@ function showModal() {
     error.textContent = "Invalid username or password";
     error.style.display = "none";
 
-    const cancel = document.createElement("button");
-    cancel.textContent = "Cancel";
-    cancel.classList.add("modal-button");
-    cancel.addEventListener("click", () => {
-      dialog.close();
-      // Remove modal from DOM
-      dialog.remove();
-    });
 
     const login = document.createElement("button");
     login.textContent = "Login";
@@ -94,8 +105,14 @@ function showModal() {
         error.textContent = "Incorrect password";
         error.style.display = "block";
       } else {
-        activeUser = { username: username };
+        activeUser = {username: username};
         localStorage.setItem("activeUser", JSON.stringify(activeUser));
+        document.querySelectorAll('form').forEach(form => form.style.display = 'flex');
+
+        // Close modal
+        dialog.close();
+        // Remove modal from DOM
+        dialog.remove();
       }
     });
 
@@ -107,8 +124,26 @@ function showModal() {
       const password = document.getElementById("password").value;
       // Register new account
 
-      users.push({ username: username, password: password });
+      if (!username || !password) {
+        error.textContent = "Please fill in all fields";
+        error.style.display = "block";
+        return;
+      }
+
+      // Check if username already exists
+      if (users.find(user => user.username === username)) {
+        error.textContent = "Username already exists";
+        error.style.display = "block";
+        return;
+      }
+
+      users.push({username: username, password: password});
       localStorage.setItem("users", JSON.stringify(users));
+
+      activeUser = {username: username};
+      localStorage.setItem("activeUser", JSON.stringify(activeUser));
+      document.querySelectorAll('form').forEach(form => form.style.display = 'flex');
+
 
       // Close modal
       dialog.close();
@@ -118,6 +153,8 @@ function showModal() {
 
     const buttons = document.createElement("div");
     buttons.classList.add("modal-buttons");
+
+
     buttons.append(cancel, login, register);
 
     dialog.append(usernameInput, passwordInput, error, buttons);

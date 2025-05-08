@@ -12,7 +12,7 @@ function renderCard(olympian, isLocalStorage = false) {
       redirect(`./olympian.html?id=${olympian.id}`)
     );
   const name = document.createElement("h2");
-  name.textContent = olympian.greekName;
+  name.textContent = olympian.greekName ?? olympian.name;
   card.appendChild(name);
   const img = document.createElement("img");
   img.src = olympian.image;

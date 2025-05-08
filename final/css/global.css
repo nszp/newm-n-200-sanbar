@@ -322,7 +322,7 @@ main {
 /* FORM */
 
 form {
-    margin: 0 auto;
+    margin: 4rem auto;
     padding: 0 12rem;
     display: flex;
     flex-direction: column;
