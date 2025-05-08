@@ -18,7 +18,23 @@ various elements.
 
 ### Core Webpages
 
-List core webpages and briefly describe the page of them
+*Home Page(index.html)*  
+This is the welcoming Page that introduces the sites theme - Greek Mythology
+
+*Heroes Pages(hero.html, heroes.html)*
+Displays the names, pictures, descriptions and a grid of all heroes fetched from the API
+
+*Stories Pages(Stories.html, Story.html)*
+Displays the names, pictures, descriptions and a grid of all Stories fetched from the API
+
+*Creatures Pages(Creatures.html, Creature.html)*
+Displays the names, pictures, descriptions and a grid of all Creatures fetched from the API
+
+*Olympians Pages(Olympians.html, heOlympian.html)*
+Displays the names, pictures, descriptions and a grid of all Olympians fetched from the API
+
+*Relic Pages(Relic.html, Relics.html)*
+Displays the names, pictures, descriptions and a grid of all Relics fetched from the API
 
 ### Design Choices & Local Storage Design
 
