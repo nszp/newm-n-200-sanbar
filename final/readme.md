@@ -18,23 +18,14 @@ various elements.
 
 ### Core Webpages
 
-*Home Page(index.html)*  
-This is the welcoming Page that introduces the sites theme - Greek Mythology
-
-*Heroes Pages(hero.html, heroes.html)*
-Displays the names, pictures, descriptions and a grid of all heroes fetched from the API
-
-*Stories Pages(Stories.html, Story.html)*
-Displays the names, pictures, descriptions and a grid of all Stories fetched from the API
-
-*Creatures Pages(Creatures.html, Creature.html)*
-Displays the names, pictures, descriptions and a grid of all Creatures fetched from the API
-
-*Olympians Pages(Olympians.html, Olympian.html)*
-Displays the names, pictures, descriptions and a grid of all Olympians fetched from the API
-
-*Relic Pages(Relic.html, Relics.html)*
-Displays the names, pictures, descriptions and a grid of all Relics fetched from the API
+| Page          | Files                             | Description                                                                                 |
+|---------------|-----------------------------------|---------------------------------------------------------------------------------------------|
+| **Home**      | `index.html`                      | Welcoming landing page introducing the site’s theme: Greek Mythology.                       |
+| **Heroes**    | `heroes.html`, `hero.html`        | Grid-view and detail pages showing heroes the name and description fetched from the API.    |
+| **Stories**   | `stories.html`, `story.html`      | Grid-view and detail pages for mythological stories, including user-added entries.          |
+| **Creatures** | `creatures.html`, `creature.html` | Grid-view and detail pages for creatures (monsters, beasts) with images and lore.           |
+| **Olympians** | `olympians.html`, `olympian.html` | List and details of popular Olympian gods and godesses                                      |
+| **Relics**    | `relics.html`, `relic.html`       | List and detail pages for legendary artifacts and relics from Greek mythology.              |
 
 ### Design Choices & Local Storage Design
 
