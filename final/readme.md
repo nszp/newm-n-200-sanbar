@@ -30,7 +30,7 @@ Displays the names, pictures, descriptions and a grid of all Stories fetched fro
 *Creatures Pages(Creatures.html, Creature.html)*
 Displays the names, pictures, descriptions and a grid of all Creatures fetched from the API
 
-*Olympians Pages(Olympians.html, heOlympian.html)*
+*Olympians Pages(Olympians.html, Olympian.html)*
 Displays the names, pictures, descriptions and a grid of all Olympians fetched from the API
 
 *Relic Pages(Relic.html, Relics.html)*
